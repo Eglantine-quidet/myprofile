@@ -1,0 +1,92 @@
+
+body {
+    background-color: #B8E0D2;
+    color: black;
+    font-family: 'Archivo', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 40px auto;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Libre Baskerville', serif;
+}
+h1 {
+  color: #8675A9;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-size: 60px;
+  text-transform: capitalize;
+}
+
+h2 {
+	color: #7579E7;
+	font-size: 40px;
+	font-weight: lighter;
+}
+.btn_blue{
+	font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+	color: #1D2D50;
+	font-weight: bold;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn_blue:hover {
+  background-color: #B8E0D2;
+  color: white; 
+}
+
+
+.fab{
+	width: 100px;
+}
+
+.box {
+background:#d9f9ff;
+padding: 60px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius:10px;
+margin: 40px 600px;
+text-align: center;
+
+}
+
+.image {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px 0px 0px;
+}
+
+.image a{
+    
+    width: 200px;
+}
+
+.image img{
+    opacity: 0.6;
+    transition:1s;
+    margin: 10px;
+}
+
+
+.image a img:hover{
+    opacity:1;
+    transform: scale(1.1);
+
+}
+
+.img-circle {
+  border-radius: 50%;  
+}
+
+#introduction p {
+margin-bottom: 50px;
+}
